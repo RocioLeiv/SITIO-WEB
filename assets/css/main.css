@@ -1,0 +1,14 @@
+body {
+    background-color:white;
+      height: 400px;
+    background-size: cover;
+      background-repeat:no-repeat;
+      background-position: center center;
+}
+footer {
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
