@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
-<!-- dentro esta toda la pagina, es decir, tanto lo que podemos ver como lo que no podemos ver..... Lo que podemos ver esta en el body y lo que no podemos ver esta en el head-->
-<head><!-- lo que no podemos ver-->
+<head>
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 
@@ -21,15 +20,16 @@
 
 </head>
 <body>
-
+<!-- Inicio Navbar -->
 <nav class="navbar">
     <div class="container">
         <ul>
             <a class="navbar-brand" href="#">
                 <img src="./assets/img/logopag.png" width="100px">
             </a>
-            <a class="navbar-brand" href="#">INICIO</a>
-            <a class="navbar-brand" href="#">QUIENES SOMOS</a>
+            <a class="navbar-brand" href="/index.html">INICIO</a>
+            <a class="navbar-brand" href="/quienessomos.html">QUIENES SOMOS</a>
+            <a class="navbar-brand" href="/galeria.html">GALERIA</a>
             <a class="navbar-brand" href="#">CONTACTO</a>
 
         </ul>
@@ -44,8 +44,8 @@
         </div>
     </div>
 </nav>
-
-
+<!-- fin Navbar -->
+<!-- Inicio carrusel -->
 <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-bs-ride="carousel">
     <div class="carousel-inner ">
         <div class="carousel-item active d-flex" data-bs-interval="10000">
@@ -101,14 +101,40 @@
     </button>
 
 </div>
-<!-- fin Navbar -->
-<!--Row Formularios-->
-
-<footer>
-    <p>¿Quiénes somos?</p>
-    <p>Contáctanos</p>
-    <p>Términos y condiciones</p>
+<!--Fin carrusel-->
+<!--Inicio pie de pagina-->
+<footer  style="width:100%; margin-left: 0px;">
+    <div>
+        <div class="lado">
+            <img src="./assets/img/logopag.png" width="400px"></div>
+        <div class="lado">
+        <p>Productos</p>
+        <div>Features</div>
+        <div>Pricing </div>
+        <div>Releases</div></div>
+        <div class="lado">
+        <p>Nosotros</p>
+        <div>Acerca de</div>
+        <div>contacto</div>
+        <div>Partners</div>
+        </div>
+        <div class="lado">
+        <p>Contáctanos</p>
+        <div href="https://www.facebook.com/Gusto_adquirido-899750703695619">Facebook</div>
+        <div href="https://www.instagram.com/gusto_adquirido_/">Instagram</div>
+        <div href="whatsapp://send?text=Buenas, quisiera ordenar...&phone=+56950866270&abid=+56950866270">Whatsapp</div>
+        </div>
+    </div>
+    <div class="copyright">
+        <font size=2>
+            Creado por el grupo Punto y Coma ©  Todos los derechos Reservados por GustoAdquirido.
+            <img src="./assets/img/logopag.png" width="50px">
+        </font>
+    </div>
 </footer>
+<!--fin pie de pagina-->
 
 
 </body>
+
+
