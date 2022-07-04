@@ -3,19 +3,45 @@
 body {
     font-family: "Roboto";
 }
-
 .navbar{
-    background: #FFF2F2;
+    background: #F6F6F6;
 }
 .navbar-brand{
-    color: #F47C7C;
+    color: black;
 }
 .navbar-brand1{
     float: right;
     margin: 0 20px 0 20px;
 }
+.button1{
+    display: inline-block;
+    padding: 1em 2em;
+    background: #FFE2E2;
+    color: #FF869E;
+    border-radius: 2em;
+    border:none;
+    outline: 2px solid #FFE2E2;
+    outline-offset: 3px;
+}
+.centro{
+    text-align: center;
+}
+.Hola {
+    /* cambia estos dos valores para definir el tamaño de tu círculo */
+    height: 400px;
+    width: 400px;
+    /* los siguientes valores son independientes del tamaño del círculo */
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+.Imagen{border-radius:20%;
+    height: 600px;
+    width: 600px;
+}
 footer {
-    background-color: #FFF2F2;
+    background-color: #F1F1F6;
     color: black;
   }
 .central {
@@ -31,4 +57,8 @@ footer {
 .izquierda{
     text-align:left;
 
+}
+.quienes{
+    color: #470D21;
+    
 }
