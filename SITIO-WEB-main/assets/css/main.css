@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap%27');
+
+body {
+    font-family: "Roboto";
+}
+.navbar{
+    background: #F6F6F6;
+}
+.navbar-brand{
+    color: black;
+}
+.navbar-brand1{
+    float: right;
+    margin: 0 20px 0 20px;
+}
+.button1{
+    display: inline-block;
+    padding: 1em 2em;
+    background: #FFE2E2;
+    color: #FF869E;
+    border-radius: 2em;
+    border:none;
+    outline: 2px solid #FFE2E2;
+    outline-offset: 3px;
+}
+.centro{
+    text-align: center;
+}
+.Hola {
+    /* cambia estos dos valores para definir el tamaño de tu círculo */
+    height: 400px;
+    width: 400px;
+    /* los siguientes valores son independientes del tamaño del círculo */
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+.Imagen{border-radius:20%;
+    height: 600px;
+    width: 600px;
+}
+footer {
+    background-color: #F1F1F6;
+    color: black;
+  }
+.central {
+    text-align:center;
+  }
+.lado {
+    padding: 10px;
+    margin: 80px;
+    
+    /* IMPORTANTE */
+    display: inline-block;
+  }
+.izquierda{
+    text-align:left;
+
+}
+.quienes{
+    color: #470D21;
+    
+}
+
+.container{
+    width: 100%;
+}
+
+.row {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+
+.col-md-3 {
+    border-radius: 40px; 
+  }
