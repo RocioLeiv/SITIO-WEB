@@ -1,50 +1,23 @@
 .carousel{
     width: 100%;
-    height: 75%;
-}
-
-.carousel-item__aux{
-    display: flex;
-    flex-direction: column;
-
 }
 .carousel-item__left{
-    float: left;
     width: 100%;
     background:  #F47C7C;
-    position: relative;
-}
-.carousel-item__left-content{
-    display: inline-block;
     color:#FAD4D4;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateY(-50%) translateX(-50%);
+    position: relative;
 
 }
-.carousel-item__left-content h3{
-    font-size: 75px;
-}
-.carousel-item__left-content p{
-    font-size: 25px;
-}
 .carousel-item__left a button{
-    float: right;
-    width: 150px;
-    height: 50px;
+
     background: #FAD4D4;
     border: none;
     border-radius: 30px;
     color: #F47C7C;
     font-size: 25px;
     text-align: center;
-    position: absolute;
-    top: 75%;
-    left: 45%;
-    transform: translateY(-20%) translateX(-50%);
-}
 
+}
 
 .carousel-item__left-button{
     position: center;
@@ -57,4 +30,10 @@
 }
 .carousel-item__right{
     width: 50%;
+}
+.card{
+    border: none;
+}
+.img-circle{
+    border-radius: 50%;
 }
