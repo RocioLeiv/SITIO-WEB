@@ -59,7 +59,9 @@ footer {
 
 }
 .quienes{
-    text-align: center;
+    justify-content: center;
+    text-align: left;
+    position: relative;
     color: #470D21;
     
 }
