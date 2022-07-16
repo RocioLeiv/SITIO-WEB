@@ -30,26 +30,68 @@
 </head>
 <body>
 <!-- Inicio Navbar -->
-<nav class="navbar">
+<nav
+        class="navbar navbar-expand-md navbar-light navbar-main"
+>
     <div class="container">
-        <ul>
-            <a class="navbar-brand" href="./index.html">
-                <img src="./assets/img/logopag.png" width="100px">
-            </a>
-            <a class="navbar-brand" href="./index.html">INICIO</a>
-            <a class="navbar-brand" href="./quienessomos.html">QUIENES SOMOS</a>
-            <a class="navbar-brand" href="./galeria.html">GALERIA</a>
-            <a class="navbar-brand" href="./contacto.html">CONTACTO</a>
-
-        </ul>
-        <div>
-            <a class="navbar-brand1" href="https://www.instagram.com/gusto_adquirido_/" target="_blank"><img
-                    src="./assets/img/Instagram.png" width="50px"></a>
-            <a class="navbar-brand1" href="https://www.facebook.com/Gusto_adquirido-899750703695619"
-               target="_blank"><img src="./assets/img/Facebook.png" width="50px"></a>
-            <a class="navbar-brand1"
-               href="https://wa.me/+56950866270?text=Buenas,%20quisiera%20ordenar..."
-               target="_blank"><img src="./assets/img/WhatsApp.png" width="50px"></a>
+        <a class="navbar-brand" href="./index.html">
+            <img src="./assets/img/logopag.png" width="100px"/>
+        </a>
+        <button
+                class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#mainNav"
+                aria-controls="mainNav"
+                aria-expanded="false"
+                aria-label="Barra de navegaciÃ³n"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+            <div
+                    class="nav ms-left text-dark flex-column flex-md-row"
+            >
+                <a class="nav-link" href="./index.html">INICIO</a>
+                <a class="nav-link" href="./quienessomos.html">
+                    QUIENES SOMOS
+                </a>
+                <a class="nav-link" href="./galeria.html">GALERIA</a>
+                <a class="nav-link" href="./galeria.html">
+                    CONTACTO
+                </a>
+            </div>
+            <div class="ms-auto">
+                <a
+                        class="navbar-brand ms-auto"
+                        href="https://www.instagram.com/gusto_adquirido_/"
+                        target="_blank"
+                >
+                    <img
+                            src="./assets/img/Instagram.png"
+                            width="50px"
+                    />
+                </a>
+                <a
+                        class="navbar-brand ms-right"
+                        href="https://www.facebook.com/Gusto_adquirido-899750703695619"
+                        target="_blank"
+                >
+                    <img
+                            src="./assets/img/Facebook.png"
+                            width="50px"
+                    />
+                </a>
+                <a
+                        class="navbar-brand ms-auto"
+                        href="whatsapp://send?text=Buenas, quisiera ordenar...&phone=+56950866270&abid=+56950866270"
+                        target="_blank"
+                >
+                    <img
+                            src="./assets/img/WhatsApp.png"
+                            width="50px"
+                    />
+                </a>
+            </div>
         </div>
     </div>
 </nav>
@@ -97,99 +139,140 @@
  
   <!-- FIN CUERPO -->
 	<!-- Footer -->
-<footer >
-    <!-- Section: Social media -->
+  <footer>
+    <!--* Section: Social media *-->
     <section
-      class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-      <!-- Left -->
-      <div class="me-5 d-none d-lg-block">
-        <span>Conéctese con nosotros en las redes sociales:</span>
-      </div>
-      <!-- Left -->
-  
-      <!-- Right -->
-      <div>
-        <a class="navbar-brand1" href="https://www.instagram.com/gusto_adquirido_/" target="_blank"><img src="./assets/img/Instagram.png" width="50px"></a>
-
-        <a class="navbar-brand1" href="https://wa.me/+56950866270?text=Buenas,%20quisiera%20ordenar..."  target="_blank"><img src="./assets/img/WhatsApp.png" width="50px"></a>
-
-       <a class="navbar-brand1" href="https://www.facebook.com/Gusto_adquirido-899750703695619" target="_blank"><img src="./assets/img/Facebook.png" width="50px"></a>
-
-      </div>
-      <!-- Right -->
-    </section>
-    <!-- Section: Social media -->
-  
-    <!-- Section: Links  -->
-    <section class="">
-      <div class="container text-center text-md-start mt-5">
-        <!-- Grid row -->
-        <div class="row mt-3">
-          <!-- Grid column -->
-          <div class="col-md-1 col-lg-1 col-xl-2 mx-auto mb-1">
-            <!-- Content -->
-            <img src="./assets/img/logopag.png" width="200px">
-          </div>
-          <div class="col-md-3 col-lg-5 col-xl-3 mx-auto mb-4">
-            <!-- Content -->
-            <h6 class="text-uppercase fw-bold mb-4">
-              <i class="fas fa-gem me-3"></i>GustoAdquirido
-            </h6>
-            <p>
-              Here you can use rows and columns to organize your footer content. Lorem ipsum
-              dolor sit amet, consectetur adipisicing elit.
-            </p>
-          </div>
-          <!-- Grid column -->
-  
-          <!-- Grid column -->
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">
-                Productos
-            </h6>
-            <p>
-              <a href="#!" class="text-reset">Características</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Precios</a>
-          </div>
-          <!-- Grid column -->
-  
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">
-                Nosotros
-            </h6>
-            <p>
-              <a href="#!" class="text-reset">Acerca de</a>
-            </p>
-          </div>
-          <!-- Grid column -->
-  
-          <!-- Grid column -->
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4" style="font-family: 'Dancing Script', cursive;">
-            Contacto
-            </h6>
-            <p><a href="tel:+56950866270">Haz clic aquí para hablar conmigo por llamada</a>
-          </div>
-          <!-- Grid column -->
+            class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+    >
+        <!--* Left *-->
+        <div class="me-5 d-none d-lg-block">
+          <span>
+            Encuéntranos con nosotros en las redes sociales:
+          </span>
         </div>
-        <!-- Grid row -->
-      </div>
+        <!--* Left *-->
+
+        <!--* Right *-->
+        <div>
+            <a
+                    class="navbar-brand1"
+                    href="https://www.instagram.com/gusto_adquirido_/"
+                    target="_blank"
+            >
+                <img src="./assets/img/Instagram.png" width="50px"/>
+            </a>
+
+            <a
+                    class="navbar-brand1"
+                    href="https://wa.me/+56950866270?text=Buenas,%20quisiera%20ordenar..."
+                    target="_blank"
+            >
+                <img src="./assets/img/WhatsApp.png" width="50px"/>
+            </a>
+
+            <a
+                    class="navbar-brand1"
+                    href="https://www.facebook.com/Gusto_adquirido-899750703695619"
+                    target="_blank"
+            >
+                <img src="./assets/img/Facebook.png" width="50px"/>
+            </a>
+        </div>
+        <!--* Right *-->
     </section>
-    <!-- Section: Links  -->
-  
-    <!-- Copyright -->
-    <div class="text-center p-4" style="background-color: #8785A2;">
-        Creado por el grupo Punto y Coma © 2022 Todos los derechos Reservados por GustoAdquirido.
-        <img src="./assets/img/logopag.png" width="50px">
+    <!--* Fin section: Social media *-->
+
+    <!--* Section: Links  *-->
+    <section>
+        <div class="container mt-5">
+            <!--* Grid row -->
+            <div class="row mt-3">
+                <!--* Grid column -->
+                <div class="col-md-6">
+                    <!--* Content -->
+                    <img
+                            src="./assets/img/logopag.png"
+                            class="img-fluid"
+                    />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <!--* Content -->
+                    <h6 class="text-uppercase fw-bold">
+                        GustoAdquirido
+                    </h6>
+                    <p>
+                        Here you can use rows and columns to organize
+                        your footer content. Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit.
+                    </p>
+                </div>
+                <!--* Grid column *-->
+
+                <!--* Grid column*-->
+                <div class="col-md-3">
+                    <!--* Links *-->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        Productos
+                    </h6>
+                    <p>
+                        <a href="#!" class="text-reset"
+                        >Características</a
+                        >
+                    </p>
+                    <p>
+                        <a href="#!" class="text-reset">Precios</a>
+                    </p>
+                </div>
+
+                <!--* Grid column *-->
+
+                <!--* Grid column -->
+                <div class="col-md-3">
+                    <!--* Links *-->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        Nosotros
+                    </h6>
+                    <p>
+                        <a href="#!" class="text-reset">Acerca de</a>
+                    </p>
+                </div>
+                <!--* Grid column *-->
+
+                <!--* Grid column *-->
+                <div class="col-md-3">
+                    <!--* Links *-->
+                    <h6
+                            class="text-uppercase fw-bold mb-4"
+                    >
+                        Contacto
+                    </h6>
+                    <p>
+                        <a href="tel:+56950866270"
+                        >Haz clic aquí­ para hablar conmigo por
+                            llamada</a
+                        >
+                    </p>
+                </div>
+                <!--* Grid column *-->
+            </div>
+            <!--* Grid row *-->
+        </div>
+    </section>
+    <!--* Section: Links  *-->
+
+    <!--* Copyright *-->
+    <div
+            class="text-center p-4"
+            style="background-color: #8785a2"
+    >
+        Creado por el grupo Punto y Coma Â© 2022 Todos los
+        derechos Reservados por GustoAdquirido.
+        <img src="./assets/img/logopag.png" width="50px"/>
     </div>
-    <!-- Copyright -->
-  </footer>
+    <!--* Copyright *-->
+</footer>
   <!-- Footer -->
 
 </body>
