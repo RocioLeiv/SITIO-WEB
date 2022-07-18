@@ -13,6 +13,13 @@ body {
     float: right;
     margin: 0 20px 0 20px;
 }
+.navbar-brand2{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 .button1{
     display: inline-block;
     padding: 1em 2em;
@@ -80,5 +87,6 @@ footer {
   }
 
 .col-md-3 {
-    border-radius: 40px; 
+    border-radius: 40px;
+
   }
