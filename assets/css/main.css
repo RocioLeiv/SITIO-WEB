@@ -4,7 +4,7 @@ body {
     font-family: "Roboto";
 }
 .navbar{
-    background: #F6F6F6;
+    background: #F5EFEF;
 }
 .nav-link{
     color: black;
@@ -23,8 +23,8 @@ body {
 .button1{
     display: inline-block;
     padding: 1em 2em;
-    background: #FFE2E2;
-    color: #FF869E;
+    background: #FFCB8E;
+    color: #931A25;
     border-radius: 2em;
     border:none;
     outline: 2px solid #FFE2E2;
@@ -89,4 +89,8 @@ footer {
 .col-md-3 {
     border-radius: 40px;
 
+  }
+  label{
+    display: block; 
+      float: center; 	
   }

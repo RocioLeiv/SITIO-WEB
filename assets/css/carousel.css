@@ -3,7 +3,7 @@
 }
 .carousel-item__left{
     width: 100%;
-    background:  #F47C7C;
+    background:  #E97171;
     color:#FAD4D4;
     position: relative;
 
@@ -13,7 +13,7 @@
     background: #FAD4D4;
     border: none;
     border-radius: 30px;
-    color: #F47C7C;
+    color: #E97171;
     font-size: 25px;
     text-align: center;
 
@@ -21,8 +21,8 @@
 
 .carousel-item__left-button{
     position: center;
-    background: #F47C7C;
-    border: #F47C7C;
+    background: #E97171;
+    border: #E97171;
     border-radius: 10px;
     font-size: 20px;
     justify-content: center;
