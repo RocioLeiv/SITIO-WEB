@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <link
+            rel="shortcut icon"
+            href="./assets/img/Logopag.png"
+            type="image/x-icon"
+    />
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+            crossorigin="anonymous"
+    />
+    <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+            integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+            crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./assets/css/main.css"/>
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="./assets/css/main.css"/>
+    <link rel="stylesheet" href="./assets/css/carousel.css"/>
+    <title>Reposteria Rustica</title>
+    <style type="text/css">
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+    <script src="./assets/js/main.js" type="module"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin
+    />
+    <link
+            href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+            rel="stylesheet"
+    />
+</head>
+<body>
+<!--* Inicio Navbar *-->
+<nav
+        class="navbar navbar-expand-md navbar-light navbar-main">
+    <div class="container">
+        <a class="navbar-brand" href="./index.html">
+            <img src="./assets/img/logopag.png" width="100px"/>
+        </a>
+        <button
+                class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#mainNav"
+                aria-controls="mainNav"
+                aria-expanded="false"
+                aria-label="Barra de navegaciÃ³n"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+            <div
+                    class="nav ms-left text-dark flex-column flex-md-row"
+            >
+                <a class="nav-link" href="./index.html">INICIO</a>
+                <a class="nav-link" href="./quienessomos.html">
+                    QUIENES SOMOS
+                </a>
+                <a class="nav-link" href="./galeria.html">GALERIA</a>
+                <a class="nav-link" href="./contacto.html">CONTACTO</a>
+                <a class="nav-link" href="./precios.html">PRECIOS</a>
+            </div>
+            <div class="ms-auto">
+                <a
+                        class="navbar-brand ms-auto"
+                        href="https://www.instagram.com/gusto_adquirido_/"
+                        target="_blank"
+                >
+                    <img
+                            src="./assets/img/Instagram.png"
+                            width="50px"
+                    />
+                </a>
+                <a
+                        class="navbar-brand ms-right"
+                        href="https://www.facebook.com/Gusto_adquirido-899750703695619"
+                        target="_blank"
+                >
+                    <img
+                            src="./assets/img/Facebook.png"
+                            width="50px"
+                    />
+                </a>
+                <a
+                        class="navbar-brand ms-auto"
+                        href="whatsapp://send?text=Buenas, quisiera ordenar...&phone=+56950866270&abid=+56950866270"
+                        target="_blank"
+                >
+                    <img
+                            src="./assets/img/WhatsApp.png"
+                            width="50px"
+                    />
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+<!--* fin Navbar *-->
+
+<!--* Inicio carrusel *-->
+<div
+        id="carouselExampleInterval"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+>
+    <div class="carousel-inner flex-column-reverse flex-md-row">
+        <div
+                class="carousel-item active d-flex flex-column-reverse flex-md-row"
+                data-bs-interval="10000"
+        >
+            <div class="carousel-item__left d-flex flex-column text-center align-items-center justify-content-center">
+
+                    <h1 class="d-block fs-1">OFERTAS EN GUSTO ADQUIRIDO!</h1>
+                    <p class="d-block fs-3">Todas nuestras tortas deliciosas</p>
+                <a
+                        class="navbar-brand"
+                        href="https://wa.me/+56950866270?text=Buenas,%20quisiera%20ordenar..."
+                        target="_blank"
+                >
+                    <button>Contacto</button>
+                </a>
+            </div>
+            <img
+                    src="./assets/img/torta7.jpg"
+                    class="carousel-item__right w-100"
+                    alt="..."
+            />
+        </div>
+        <div
+                class="carousel-item d-flex flex-column-reverse flex-md-row"
+                data-bs-interval="2000"
+        >
+            <div class="carousel-item__left  d-flex flex-column text-center align-items-center justify-content-center ">
+
+                    <h1 class="d-black fs-1">Tortas para celiacos!</h1>
+                    <p class="d-black fs-3">Tortas a excelente precio</p>
+                <a
+                        class="navbar-brand"
+                        href="https://wa.me/+56950866270?text=Buenas,%20quisiera%20ordenar..."
+                        target="_blank"
+                >
+                    <button>Ver productos</button>
+                </a>
+            </div>
+            <img
+                    src="./assets/img/torta2.png"
+                    class="carousel-item__right w-100"
+                    alt="..."
+            />
+        </div>
+    </div>
+
+    <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev"
+    >
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next"
+    >
+        <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+        ></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<!--* Fin carrusel *-->
+
+<!--* Inicio contenido *-->
+<div class="row my-3">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="row g-0">
+                <div class="col-md-4 p-3">
+                    <img
+                            class="img-fluid img-circle"
+                            src="./assets/img/torta1.png"
+                    />
+                </div>
+                <div class="col-md-8 mt-3">
+                    <p>
+                        Es un hecho establecido hace demasiado tiempo que
+                        un lector se distraerá con el contenido del texto
+                        de un sitio mientras que mira su diseño. El punto
+                        de usar Lorem Ipsum es que tiene una distribución
+                        más o menos normal de las letras, al contrario de
+                        usar textos como por ejemplo "Contenido aquí­,
+                        contenido aquí­". Estos textos hacen parecerlo un
+                        espaÃ±ol que se puede leer. Muchos paquetes de
+                        autoedición y editores de páginas web usan el
+                        Lorem
+                    </p>
+                    <div class="centro">
+                        <button class="button button1">
+                            Pide tu torta
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--* Fin contenido *-->
+
+<!--* Inicio contenido *-->
+<div class="row my-3">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="row g-0">
+                <div class="col-md-4 p-3">
+                    <img
+                            class="img-fluid img-circle"
+                            src="./assets/img/torta2.png"
+                    />
+                </div>
+                <div class="col-md-8 mt-3">
+                    <p>
+                        Es un hecho establecido hace demasiado tiempo que
+                        un lector se distraerá con el contenido del texto
+                        de un sitio mientras que mira su diseÃ±o. El punto
+                        de usar Lorem Ipsum es que tiene una distribución
+                        más o menos normal de las letras, al contrario de
+                        usar textos como por ejemplo "Contenido aquí­,
+                        contenido aquí­". Estos textos hacen parecerlo un
+                        español que se puede leer. Muchos paquetes de
+                        autoedición y editores de páginas web usan el
+                        Lorem
+                    </p>
+                    <div class="centro">
+                        <button class="button button1">
+                            Pide tu torta
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--* Fin contenido *-->
+
+<!--* Inicio footer *-->
+<footer class="footer">
+
+
+            <!--* Grid row -->
+            <div class="row">
+
+                <!--* Grid column*-->
+                <div class="col-md-3 mt-5">
+                    <!--* Links *-->
+                    <h6 class="text-uppercase mb-3 fs-4">Infomación</h6>
+                    <p class="fs-5">
+                        <a href="./precios.html" class="text-reset">Precios</a><br>
+                        <a href="./precios.html" class="text-reset">Envios</a><br>
+                        <a href="./precios.html" class="text-reset">Preguntas Frecuentes</a>
+                    </p>
+                </div>
+
+                <!--* Grid column *-->
+
+                <!--* Grid column -->
+                <div class="col-md-3 mt-5">
+                    <!--* Links *-->
+                    <h6 class="text-uppercase mb-3 fs-4">Horario de atencion</h6>
+                    <p class="fs-5"> Lunes a viernes <br>de 16:30 a 21:00,<br>  dias festivos no atendemos</p>
+                </div>
+                <!--* Grid column *-->
+
+                <!--* Grid column *-->
+                <div class="col-md-3 mt-5">
+                    <!--* Links *-->
+                    <h6 class="text-uppercase mb-3 fs-4">Contactanos</h6>
+                    <p class="fs-5">Si tienes alguna duda,<br> escribenos a<br> contacto@gustoadquirido.cl</p>
+                </div>
+                <!--* Grid column *-->
+            </div>
+            <!--* Grid row *-->
+
+
+    <!--* Copyright *-->
+    <div class="text-center p-4 align-items-end mt-5" style="background-color: #931A25">
+        <br><br><br>Creado por el grupo Punto y Coma © 2022 Todos los
+        derechos Reservados por GustoAdquirido.
+    </div>
+    <!--* Copyright *-->
+</footer>
+<!--* Fin footer *-->
+</body>
+</html>
+
+
