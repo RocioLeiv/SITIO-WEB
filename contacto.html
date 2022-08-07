@@ -50,8 +50,8 @@
 <nav
         class="navbar navbar-expand-md navbar-light navbar-main">
     <div class="container">
-        <a class="navbar-brand" href="./index.html">
-            <img src="./assets/img/logopag.png" width="100px"/>
+        <a class="navbar-brand-logo" href="./index.html">
+            <img src="./assets/img/logopag.png"/>
         </a>
         <button
                 class="navbar-toggler"
@@ -76,35 +76,15 @@
                 <a class="nav-link" href="./precios.html">PRECIOS</a>
             </div>
             <div class="ms-auto">
-                <a
-                        class="navbar-brand ms-auto"
-                        href="https://www.instagram.com/gusto_adquirido_/"
-                        target="_blank"
-                >
-                    <img
-                            src="./assets/img/Instagram.png"
-                            width="50px"
-                    />
+                <a class="navbar-brand ms-auto" href="https://www.instagram.com/gusto_adquirido_/" target="_blank">
+                    <img src="./assets/img/Instagram.png"/>
                 </a>
-                <a
-                        class="navbar-brand ms-right"
-                        href="https://www.facebook.com/Gusto_adquirido-899750703695619"
-                        target="_blank"
-                >
-                    <img
-                            src="./assets/img/Facebook.png"
-                            width="50px"
-                    />
+                <a class="navbar-brand ms-right" href="https://www.facebook.com/Gusto_adquirido-899750703695619" target="_blank">
+                    <img  src="./assets/img/Facebook.png"/>
                 </a>
-                <a
-                        class="navbar-brand ms-auto"
-                        href="whatsapp://send?text=Buenas, quisiera ordenar...&phone=+56950866270&abid=+56950866270"
-                        target="_blank"
-                >
-                    <img
-                            src="./assets/img/WhatsApp.png"
-                            width="50px"
-                    />
+                <a class="navbar-brand ms-auto" 
+                href="whatsapp://send?text=Buenas, quisiera ordenar...&phone=+56950866270&abid=+56950866270" target="_blank">
+                    <img  src="./assets/img/WhatsApp.png"/>
                 </a>
             </div>
         </div>
@@ -112,175 +92,97 @@
 </nav>
 <!--* fin Navbar *-->
 
+<div class="row"> <!-- Cajita título Formulario Contacto -->
+  <div class="col-sm-4 col-xs-1"> <!-- Flecha Izquierda Formulario Contacto -->
+    <br>
+    <img class="img-responsive" width="100%" src="./assets/img/titulo1.png">
+  </div>
+  <div class="col-sm-3 col-xs-1"> <!-- Título Formulario Contacto -->
+    <br>
+    <h1 class="quienes-titulo-main" style="font-family: 'Dancing Script', cursive; color: #FF869E;">Formulario Contacto</h2>
+  </div>
+  <div class="col-sm-4 col-xs-1"> <!-- Flecha Derecha Formulario Contacto -->
+    <br>
+    <img class="img-responsive" width="100%" src="./assets/img/titulo2.png">
+  </div>
+</div>
+
+
 
 <div class="container-fluid">
   <div class="row">
-    <div class="row"> <!-- Cajita título Formulario Contacto -->
-      <div class="col-sm-4 col-xs-1"> <!-- Flecha Izquierda Formulario Contacto -->
-        <br>
-        <img class="img-responsive" width="100%" src="./assets/img/titulo1.png">
-      </div>
-      <div class="col-sm-3 col-xs-1"> <!-- Título Formulario Contacto -->
-        <br>
-        <h2 style="font-family: 'Dancing Script', cursive; color: #FF869E;">Formulario Contacto</h2>
-      </div>
-      <div class="col-sm-4 col-xs-1"> <!-- Flecha Derecha Formulario Contacto -->
-        <br>
-        <img class="img-responsive" width="100%" src="./assets/img/titulo2.png">
-      </div>
-    </div>
     <div class="row mb-3">
-      <div class="col-md-2">
+      <div class="col-md-5">
         <br>
         <img class="img-responsive" width="100%" src="./assets/img/telefonoformulario.png">
       </div>
-      <div class="col-md-4">
-        <p style = "font-family:Georgia,arial,helvética;"><h3>¿Deseas contactarnos?<br>Envianos un correo a claudifbed@gmail.com</h3></p>
+      <div class="col-md-5">
+        <p style = "font-family:Georgia,arial,helvética;"><h1>¿Deseas contactarnos?<br><br>Envianos un correo a correo@gusto.cl</h1></p>
+        <form id="form" action="https://formsubmit.co/stapia@utem.cl" class="form" method="POST">
+          <label for="name">Nombre Completo <span>*</span></label>
+          <input name="name" required type="text" id="name" placeholder="Nombre">
+          <br>
+          <label for="email">Correo electrónico <span>*</span></label>
+          <input name="email" type="text" id="email" required placeholder="correo@gmail.com">
+          <br>
+          <label for="message">Mensaje</label>
+          <textarea id="message" name="message" id="" cols="30" rows="10"></textarea>
+          <br>
+          <button type="submit" class="btn primary full" value="enviar">enviar</button>
+        </form>
       </div>
-      <div class="col-md-2">
-      <!--  <form method="post"action="https://formsubmit.co/rleiva@utem.cl">				
-
-						
-          <p>
-            <label for="nombre" class="colocar_nombre">Nombre
-              <span class="obligatorio">*</span>
-            </label>
-              <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
-          </p>
-        
-          <p>
-            <label for="email" class="colocar_email">Email
-              <span class="obligatorio">*</span>
-            </label>
-              <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
-          </p>
-          <p>
-            <label for="asunto" class="colocar_asunto">Asunto
-              <span class="obligatorio">*</span>
-            </label>
-              <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
-          </p>		
-          <p>
-            <label for="mensaje" class="colocar_mensaje">Mensaje
-              <span class="obligatorio">*</span>
-            </label>                     
-                               <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
-                           </p>	  								-->
-        <a href="mailto:rleiva@utem.cl?subject= Consulta Empresa&body= HOLA">
-          <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar correo</p></button></a>
-
-        <!--  <p class="aviso">
-            <span class="obligatorio"> * </span>los campos son obligatorios.
-          </p>					
-      
-    </form>-->
-</div>	
+    </div>
+  </div>
 </div>
 
-        
-      </div>
-    </div>
-<br><br><br><br>
 <!--* Inicio footer *-->
-<footer>
-    <!--* Section: Social media *-->
-    <section
-            class="d-flex justify-content-center justify-content-lg-between p-4"
-    >
-        <!--* Left *-->
-        <div class="me-5 d-none d-lg-block">
-          <span>
-            Encuéntranos con nosotros en las redes sociales:
-          </span>
+<footer class="footer">
+
+
+    <!--* Grid row -->
+    <div class="row">
+
+        <!--* Grid column*-->
+        <div class="col-md-3 mt-5">
+            <!--* Links *-->
+            <h6 class="text-uppercase mb-3 fs-4">Infomación</h6>
+            <p class="fs-5">
+                <a href="./precios.html" class="text-reset">Precios</a><br>
+                <a href="./precios.html" class="text-reset">Envios</a><br>
+                <a href="./precios.html" class="text-reset">Preguntas Frecuentes</a>
+            </p>
         </div>
-        <!--* Left *-->
 
-        <!--* Right *-->
-        <div>
-            <a
-                    class="navbar-brand1"
-                    href="https://www.instagram.com/gusto_adquirido_/"
-                    target="_blank"
-            >
-                <img src="./assets/img/Instagram.png" width="50px"/>
-            </a>
+        <!--* Grid column *-->
 
-            <a
-                    class="navbar-brand1"
-                    href="https://wa.me/+56950866270?text=Buenas,%20quisiera%20ordenar..."
-                    target="_blank"
-            >
-                <img src="./assets/img/WhatsApp.png" width="50px"/>
-            </a>
-
-            <a
-                    class="navbar-brand1"
-                    href="https://www.facebook.com/Gusto_adquirido-899750703695619"
-                    target="_blank"
-            >
-                <img src="./assets/img/Facebook.png" width="50px"/>
-            </a>
+        <!--* Grid column -->
+        <div class="col-md-3 mt-5">
+            <!--* Links *-->
+            <h6 class="text-uppercase mb-3 fs-4">Horario de atencion</h6>
+            <p class="fs-5"> Lunes a viernes <br>de 16:30 a 21:00,<br>  dias festivos no atendemos</p>
         </div>
-        <!--* Right *-->
-    </section>
-    <!--* Fin section: Social media *-->
+        <!--* Grid column *-->
 
-    <!--* Section: Links  *-->
-    <section>
-        <div class="container">
-            <!--* Grid row -->
-            <div class="row">
-                <div class="col-md-5">
-                    <!--* Content -->
-                    <h6 class="text-uppercase fw-bold mb-4" style="font-family:'Dancing Script', cursive;">
-                        información
-                    </h6>
-                    <p>
-                        Para mas información,<br> haga click
-                        <a href="https://wa.me/+56950866270?text=Buenas,%20Tengo%20una%20duda..." class="text-reset">Aquí</a>
-                     </p>          
-                </div>
-                <!--* Grid column *-->
+        <!--* Grid column *-->
+        <div class="col-md-3 mt-5">
+            <!--* Links *-->
+            <h6 class="text-uppercase mb-3 fs-4">Contactanos</h6>
+            <p class="fs-5">Si tienes alguna duda,<br> escribenos a<br> contacto@gustoadquirido.cl</p>
 
-                <!--* Grid column*-->
-                <div class="col-md-5">
-                    <!--* Links *-->
-                    <h6 class="text-uppercase fw-bold mb-4" style="font-family:'Dancing Script', cursive;">
-                        Horario de atención
-                    </h6>
-                    <p>
-                       Lunes a Viernes <br> de 10:00 a 18:00.
-                    </p>
-                </div>
-                <!--* Grid column *-->
-                <div class="col-md-2">
-                    <!--* Links *-->
-                    <h6 class="text-uppercase fw-bold mb-4" style="font-family:'Dancing Script', cursive;">
-                        Contáctanos
-                    </h6>
-                    <p>
-                        Si tienes alguna duda, <br> escribenos a <br> claudifbed@gmail.com
-                    </p>
-                </div>
-                <!--* Grid column *-->
-            </div>
-            <!--* Grid row *-->
         </div>
-    </section>
-    <!--* Section: Links  *-->
-
-    <!--* Copyright *-->
-    <div
-            class="text-center p-4"
-            style="background-color: #931A25"
-    >
-        Creado por el grupo Punto y Coma © 2022 Todos los
-        derechos Reservados por GustoAdquirido.
+        <!--* Grid column *-->
     </div>
-    <!--* Copyright *-->
+    <!--* Grid row *-->
+
+
+<!--* Copyright *-->
+<div class="text-center p-4 align-items-end mt-5" style="background-color: #931A25">
+<br><br><br>Creado por el grupo Punto y Coma © 2022 Todos los
+derechos Reservados por GustoAdquirido.
+</div>
+<!--* Copyright *-->
 </footer>
 <!--* Fin footer *-->
+
 </body>
 </html>
-
-

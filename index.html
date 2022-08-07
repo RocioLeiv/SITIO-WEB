@@ -44,14 +44,15 @@
             href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
             rel="stylesheet"
     />
+    <link href="./assets/css/fontello.css" rel="stylesheet"/>
 </head>
 <body>
 <!--* Inicio Navbar *-->
 <nav
         class="navbar navbar-expand-md navbar-light navbar-main">
     <div class="container">
-        <a class="navbar-brand" href="./index.html">
-            <img src="./assets/img/logopag.png" width="100px"/>
+        <a class="navbar-brand-logo" href="./index.html">
+            <img src="./assets/img/logopag.png"/>
         </a>
         <button
                 class="navbar-toggler"
@@ -75,94 +76,64 @@
                 <a class="nav-link" href="./contacto.html">CONTACTO</a>
                 <a class="nav-link" href="./precios.html">PRECIOS</a>
             </div>
-            <div class="ms-auto">
-                <a
-                        class="navbar-brand ms-auto"
-                        href="https://www.instagram.com/gusto_adquirido_/"
-                        target="_blank"
-                >
-                    <img
-                            src="./assets/img/Instagram.png"
-                            width="50px"
-                    />
-                </a>
-                <a
-                        class="navbar-brand ms-right"
-                        href="https://www.facebook.com/Gusto_adquirido-899750703695619"
-                        target="_blank"
-                >
-                    <img
-                            src="./assets/img/Facebook.png"
-                            width="50px"
-                    />
-                </a>
-                <a
-                        class="navbar-brand ms-auto"
-                        href="whatsapp://send?text=Buenas, quisiera ordenar...&phone=+56950866270&abid=+56950866270"
-                        target="_blank"
-                >
-                    <img
-                            src="./assets/img/WhatsApp.png"
-                            width="50px"
-                    />
-                </a>
-            </div>
         </div>
     </div>
 </nav>
 <!--* fin Navbar *-->
 
-<!--* Inicio carrusel *-->
-<div
-        id="carouselExampleInterval"
-        class="carousel slide carousel-fade"
-        data-bs-ride="carousel"
->
-    <div class="carousel-inner flex-column-reverse flex-md-row">
-        <div
-                class="carousel-item active d-flex flex-column-reverse flex-md-row"
-                data-bs-interval="10000"
-        >
-            <div class="carousel-item__left d-flex flex-column text-center align-items-center justify-content-center">
+<div class="container-redes-fix">
+    <div class="row">
+        <a class="" href="https://www.instagram.com/gusto_adquirido_/" target="_blank">
+            <img src="./assets/img/Instagram.png"/>
+        </a>
+    </div>
+    
+    <div class="row">
+        <a class="" href="https://www.facebook.com/Gusto_adquirido-899750703695619" target="_blank">
+            <img  src="./assets/img/Facebook.png"/>
+        </a>
+    </div>
 
-                    <h1 class="d-block fs-1"><b>OFERTAS EN GUSTO ADQUIRIDO!</b></h1>
-                    <p class="d-block fs-3">Todas nuestras tortas deliciosas</p>
-                
-                <a
-                        class="navbar-brand"
-                        href="https://wa.me/+56950866270?text=Buenas,%20quisiera%20ordenar..."
-                        target="_blank"
-                >
+    <div class="row">
+    <a class="" 
+    href="whatsapp://send?text=Buenas, quisiera ordenar...&phone=+56950866270&abid=+56950866270" target="_blank">
+        <img  src="./assets/img/WhatsApp.png"/>
+    </a>
+    </div>
+</div>
+
+<!--* Inicio carrusel *-->
+<div id="carouselExampleInterval" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner flex-column-reverse flex-md-row">
+        <div class="carousel-item active d-flex flex-column-reverse flex-md-row" data-bs-interval="10000">
+            <div class="carousel-item__left d-flex flex-column text-center align-items-center justify-content-center">
+                <h1 class="d-block">OFERTAS EN<br> GUSTO <br>ADQUIRIDO!</h1>
+                <a class="navbar-brand" href="https://wa.me/+56950866270?text=Buenas,%20quisiera%20ordenar..." target="_blank">
                     <button>Contacto</button>
                 </a>
             </div>
-            <img
+            <div class="carousel-item__right">
+                <img
                     src="./assets/img/torta7.jpg"
-                    class="carousel-item__right w-100"
+                    class="carousel-item__right-img"
                     alt="..."
-            />
+                />
+            </div>
         </div>
-        <div
-                class="carousel-item d-flex flex-column-reverse flex-md-row"
-                data-bs-interval="2000"
-        >
+        <div class="carousel-item d-flex flex-column-reverse flex-md-row" data-bs-interval="2000">
             <div class="carousel-item__left  d-flex flex-column text-center align-items-center justify-content-center ">
-
-                    <h1 class="d-black fs-1"><b>Tortas para celiacos!</b></h1>
-                    <p class="d-black fs-3">Tortas a excelente precio</p>
-                <a
-                        class="navbar-brand"
-                        href="https://wa.me/+56950866270?text=Buenas,%20quisiera%20ordenar..."
-                        target="_blank"
-                >
+                <h1 class="d-black">TORTAS<br> PARA<br> CELIACOS!</h1>
+                <a class="navbar-brand" href="https://wa.me/+56950866270?text=Buenas,%20quisiera%20ordenar..." target="_blank">
                     <button>Ver productos</button>
                 </a>
             </div>
-            <img
+            <div class="carousel-item__right">
+                <img
                     src="./assets/img/torta2.png"
-                    class="carousel-item__right w-100"
+                    class="carousel-item__right-img"
                     alt="..."
-            />
+                />
+            </div>
         </div>
     </div>
 
@@ -190,155 +161,108 @@
 <!--* Fin carrusel *-->
 
 <!--* Inicio contenido *-->
-<div class="row my-3">
-    <div class="col-md-12">
-        <div class="card">
-            <div class="row g-0">
-                <div class="col-md-4 p-3">
-                    <img
-                            class="img-fluid img-circle"
-                            src="./assets/img/torta1.png"
-                    />
-                </div>
-                <div class="col-md-8 mt-3">
-                    <p>
-                        <br><br><br><br><br><br>
-                        No podemos comprar la felicidad, pero si comernos un trozo de torta  de @gustoadquirido, que es lo mismo
-                    </p>
-                    <div class="centro">
-                        <button class="button button1">
-                            <b>Pide tu torta</b>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--* Fin contenido *-->
 
-<!--* Inicio contenido *-->
-<div class="row my-3">
-    <div class="col-md-12">
-        <div class="card">
-            <div class="row g-0">
-                <div class="col-md-4 p-3">
-                    <img
-                            class="img-fluid img-circle"
-                            src="./assets/img/torta2.png"
-                    />
-                </div>
-                <div class="col-md-8 mt-3">
-                    <p>
-                        <br><br><br><br><br><br>
-                        Para el postre y las sonrisas, siempre hay un espacios para @gusto adquirido
-                    </p>
-                    <div class="centro">
-                        <button class="button button1">
-                            <b>Pide tu torta</b>
-                        </button>
-                    </div>
-                </div>
-            </div>
+<div class="container-fluid">
+
+    <div class="row row-content">
+
+        <div class="col col-img">
+            <img class="img img-circle img-cont" src="./assets/img/torta1.png"/>
         </div>
+
+        <div class="col text-div">
+            <div class="row text-div-ro">
+                <p>
+                    Es un hecho establecido hace demasiado tiempo que
+                            un lector se distraerá con el contenido del texto
+                            de un sitio mientras que mira su diseño. El punto
+                            de usar Lorem Ipsum es que tiene una distribución
+                            más o menos normal de las letras, al contrario de
+                            usar textos como por ejemplo "Contenido aquí­,
+                            contenido aquí­"
+                </p>
+                <button class="button-cont">
+                    Pide tu torta
+                </button>
+
+            </div>
+            
+        </div>
+
     </div>
+    <div class="row row-content">
+
+        <div class="col col-img">
+            <img class="img img-circle img-cont" src="./assets/img/torta2.png"/>
+        </div>
+
+        <div class="col text-div">
+            <div class="row text-div-ro">
+                <p>
+                    Es un hecho establecido hace demasiado tiempo que
+                            un lector se distraerá con el contenido del texto
+                            de un sitio mientras que mira su diseño. El punto
+                            de usar Lorem Ipsum es que tiene una distribución
+                            más o menos normal de las letras, al contrario de
+                            usar textos como por ejemplo "Contenido aquí­,
+                            contenido aquí­"
+                </p>
+                <button class="button-cont">
+                    Pide tu torta
+                </button>
+
+            </div>
+            
+        </div>
+
+    </div>
+    
 </div>
+
 <!--* Fin contenido *-->
 
 <!--* Inicio footer *-->
-<footer>
-    <!--* Section: Social media *-->
-    <section
-            class="d-flex justify-content-center justify-content-lg-between p-4"
-    >
-        <!--* Left *-->
-        <div class="me-5 d-none d-lg-block">
-          <span>
-            Encuéntranos con nosotros en las redes sociales:
-          </span>
-        </div>
-        <!--* Left *-->
+<footer class="footer">
 
-        <!--* Right *-->
-        <div>
-            <a
-                    class="navbar-brand1"
-                    href="https://www.instagram.com/gusto_adquirido_/"
-                    target="_blank"
-            >
-                <img src="./assets/img/Instagram.png" width="50px"/>
-            </a>
 
-            <a
-                    class="navbar-brand1"
-                    href="https://wa.me/+56950866270?text=Buenas,%20quisiera%20ordenar..."
-                    target="_blank"
-            >
-                <img src="./assets/img/WhatsApp.png" width="50px"/>
-            </a>
-
-            <a
-                    class="navbar-brand1"
-                    href="https://www.facebook.com/Gusto_adquirido-899750703695619"
-                    target="_blank"
-            >
-                <img src="./assets/img/Facebook.png" width="50px"/>
-            </a>
-        </div>
-        <!--* Right *-->
-    </section>
-    <!--* Fin section: Social media *-->
-
-    <!--* Section: Links  *-->
-    <section>
-        <div class="container">
             <!--* Grid row -->
             <div class="row">
-                <div class="col-md-5">
-                    <!--* Content -->
-                    <h6 class="text-uppercase fw-bold mb-4" style="font-family:'Dancing Script', cursive;">
-                        información
-                    </h6>
-                    <p>
-                        Para mas información,<br> haga click
-                        <a href="https://wa.me/+56950866270?text=Buenas,%20Tengo%20una%20duda..." class="text-reset">Aquí</a>
-                     </p>          
+
+                <!--* Grid column*-->
+                <div class="col-md-3 mt-5">
+                    <!--* Links *-->
+                    <h6 class="text-uppercase mb-3 fs-4">Infomación</h6>
+                    <p class="fs-5">
+                        <a href="./precios.html" class="text-reset">Precios</a><br>
+                        <a href="./precios.html" class="text-reset">Envios</a><br>
+                        <a href="./precios.html" class="text-reset">Preguntas Frecuentes</a>
+                    </p>
+                </div>
+
+                <!--* Grid column *-->
+
+                <!--* Grid column -->
+                <div class="col-md-3 mt-5">
+                    <!--* Links *-->
+                    <h6 class="text-uppercase mb-3 fs-4">Horario de atencion</h6>
+                    <p class="fs-5"> Lunes a viernes <br>de 16:30 a 21:00,<br>  dias festivos no atendemos</p>
                 </div>
                 <!--* Grid column *-->
 
-                <!--* Grid column*-->
-                <div class="col-md-5">
-                    <!--* Links *-->
-                    <h6 class="text-uppercase fw-bold mb-4" style="font-family:'Dancing Script', cursive;">
-                        Horario de atención
-                    </h6>
-                    <p>
-                       Lunes a Viernes <br> de 10:00 a 18:00.
-                    </p>
-                </div>
                 <!--* Grid column *-->
-                <div class="col-md-2">
+                <div class="col-md-3 mt-5">
                     <!--* Links *-->
-                    <h6 class="text-uppercase fw-bold mb-4" style="font-family:'Dancing Script', cursive;">
-                        Contáctanos
-                    </h6>
-                    <p>
-                        Si tienes alguna duda, <br> escribenos a <br> claudifbed@gmail.com
-                    </p>
+                    <h6 class="text-uppercase mb-3 fs-4">Contactanos</h6>
+                    <p class="fs-5">Si tienes alguna duda,<br> escribenos a<br> contacto@gustoadquirido.cl</p>
                 </div>
                 <!--* Grid column *-->
             </div>
             <!--* Grid row *-->
-        </div>
-    </section>
-    <!--* Section: Links  *-->
+
 
     <!--* Copyright *-->
-    <div
-            class="text-center p-4"
-            style="background-color: #931A25"
-    >
-        Creado por el grupo Punto y Coma © 2022 Todos los
+    <div class="text-center p-4 align-items-end mt-5" style="background-color: #931A25">
+        <br><br><br>Creado por el grupo Punto y Coma © 2022 Todos los
         derechos Reservados por GustoAdquirido.
     </div>
     <!--* Copyright *-->
@@ -346,6 +270,5 @@
 <!--* Fin footer *-->
 </body>
 </html>
-
 
 
